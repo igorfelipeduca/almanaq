@@ -26,6 +26,13 @@ export default function AddYourPrompt() {
       width: "25rem",
       height: "auto",
       padding: "1.5rem 1rem",
+      transition: {
+        duration: 0.3,
+        ease: "easeInOut",
+      },
+      "@media(max-width: 768px)": {
+        width: "20rem",
+      },
     });
 
     containerContentControls.start({
